@@ -1,0 +1,35 @@
+.DS_Store
+frontend/node_modules
+
+# local env files
+frontend/.env.local
+frontend/.env.*.local
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+frontend/package-lock.json
+frontend/ests/**/coverage/
+backend/backend/*.py
+
+# cache
+__pycache__
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+backend/db_temp
+test.py
+vetur.config.js
+*.TMP
+
+test_data/user_data.xlsx
